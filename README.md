@@ -1,42 +1,61 @@
-# 🌟 Welcome to My GitHub Profile!
+import { Learner } from '@KevinWeekley';
 
-## About Me
-Hello! I’m a budding programmer with a growing passion for problem-solving and efficiency. I’ve recently begun my journey into the world of programming, starting with the basics and continuously expanding my understanding of how technology can transform our work and lives.
+// Basic Bio Information
+class Bio extends Learner {
+  name      = 'Kevin Weekley';
+  title     = 'Git Beginner';
+  location  = 'Screen_Me_Wall';
+  uptime    = '28 revolutions around the 🌍';
+}
 
-With a strong belief in the power of automation, customization, and organization, I aim to create solutions that streamline workflows and minimize time spent on repetitive tasks. I see programming as a way to design tools that make processes faster, more accurate, and tailored to specific needs. I’m convinced that reducing routine work not only boosts productivity but also opens up more time for creative and impactful projects.
+// Currently Learning
+class CurrentlyLearning extends Learner {
+  current = ['Rust', 'Python', 'C++'];
+}
 
-Though I’m still early in my learning journey, I’m eager to develop skills that will allow me to build meaningful, efficient solutions. My focus is on mastering the fundamentals while exploring how I can apply my skills to real-world challenges, especially those that help improve productivity and organization. I’m excited to continue learning, growing, and contributing to a future where work is smarter, not harder.
+// Skills in Progress
+class Skills extends Learner {
+  languages = ['JavaScript (I swear I’m learning)', 'Python (I can print stuff)', 'HTML (I know it’s just text, don’t judge)'];
+  frontend  = ['CSS (a.k.a. how to make things look like 2005)', 'HTML (like I said, just text)', 'React (I’ve heard of it)'];
+  tools     = ['Git (just learning to commit...)', 'VS Code (I know it’s a text editor, but I’ve heard it’s magic)'];
+}
 
-Inspired by these values, I’m Kevin, and I’m thrilled to connect with others who share this drive for efficiency and innovation. Let’s shape a smarter, more streamlined future together!
----
+// Projects
+class Projects extends Learner {
+  projects = [
+    {
+      name: 'Poorly Designed Website (in progress, 95% procrastination)',
+      description: 'Trying to build a portfolio website. Currently it’s just a blank page.',
+      link: 'now where did i put the link...',
+    },
+    {
+      name: 'click click click',
+      description: 'It’s a button that does something... hopefully.',
+      link: 'in a directory somewhere',
+    },
+  ];
+}
 
-## 🔍 Areas of Interest
+// Learning Goals
+class LearningGoals extends Learner {
+  goals = [
+    'Stop copy-pasting code from ChatGPT',
+    'Learn what the heck a closure is',
+    'Make my first fully functional app (and not just “hello world”)',
+  ];
+}
 
-- **Web Development**: Exploring front-end and back-end technologies.
-- **DevOps**: Learning about practices that improve collaboration between development and operations.
-- **Automation**: Developing scripts and applications to automate repetitive tasks.
+// Achievements (Personal Milestones)
+class Achievements extends Learner {
+  achievements = [
+    'Successfully Googled “how to open VS Code”',
+    'Built a website with HTML (it was just a heading, but still counts)',
+    'Got through one whole tutorial without quitting halfway',
+  ];
+}
 
----
-
-## 🖥️ Programming Languages
-
-- **Python**: Currently learning the basics and exploring its applications.
-- **JavaScript**: Interested in web development and creating interactive web applications.
-- **Rust**: Exploring this language for its performance and safety features.
-- **HTML/CSS**: Foundation for building and designing websites.
-
----
-
-## 📚 Currently Learning
-
-- Basics of Python programming
-- Introduction to web development with JavaScript
-- DevOps principles and CI/CD practices
-
----
-
-## 💭 Development Intentions
-
-In development, our goal is to create solutions that are beneficial and impactful. We take the time to learn and build these applications because they can significantly enhance productivity, streamline processes, and solve real-world problems. By mastering these skills, we enable ourselves to contribute positively to projects, improve user experiences, and drive innovation. The intention behind our work is to harness technology for practical and meaningful applications that can make a difference.
-
----
+// Personal Interests
+class Interests extends Learner {
+  hobbies = ['Exploring rabbit holes', 'Pretending to be productive', 'Eating pizza (while coding, of course)'];
+  areasOfInterest = ['Rust (mostly because it sounds cool)', 'Application Development (also sounds cool)', 'Automation (Love not doing it)'];
+}
