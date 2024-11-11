@@ -33,9 +33,9 @@ class Skills extends Learner {
 class Projects extends Learner {
   projects = [
     {
-      name: 'Poorly Designed Website (in progress, 95% procrastination)',
+      name: 'Poorly Designed Website', // (in progress, 95% procrastination)
       description: 'Trying to build a portfolio website. Currently it’s just a blank page.',
-      link: 'now where did i put the link...',
+      link: 'http://www.ummmmmm' // now where did i put the link...
     },
     {
       name: 'click click click',
