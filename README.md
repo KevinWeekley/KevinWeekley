@@ -1,10 +1,10 @@
 ```typescript
-import { Stolen } from '@fizasayyed';
+import { Author } from '@fizasayyed';
 import { Learner } from '@KevinWeekley';
 
 // Designer 
-class Credit extends Stolen {
-  printMessage() {
+class Stolen extends Author {
+  printCredit() {
     console.log("Thank You @fizasayyed! 🙏");
   }
 }
