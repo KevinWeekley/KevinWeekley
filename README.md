@@ -1,5 +1,13 @@
 ```typescript
+import { Stolen } from '@fizasayyed';
 import { Learner } from '@KevinWeekley';
+
+// Designer 
+class Credit extends Stolen {
+  printMessage() {
+    console.log("Thank You @fizasayyed! 🙏");
+  }
+}
 
 // Basic Bio Information
 class Bio extends Learner {
@@ -16,20 +24,9 @@ class CurrentlyLearning extends Learner {
 
 // Skills in Progress
 class Skills extends Learner {
-  languages = [
-    'JavaScript (I swear I’m learning)', 
-    'Python (I can print stuff)', 
-    'HTML (I know it’s just text, don’t judge)'
-  ];
-  frontend  = [
-    'CSS (a.k.a. how to make things look like 2005)', 
-    'HTML (like I said, just text)', 
-    'React (I’ve heard of it)'
-  ];
-  tools     = [
-    'Git (just learning to commit...)', 
-    'VS Code (I know it’s a text editor, but I’ve heard it’s magic)'
-  ];
+  languages = ['JavaScript (I swear I’m learning)', 'Python (I can print stuff)', 'HTML (I know it’s just text, don’t judge)'];
+  frontend  = ['CSS (a.k.a. how to make things look like 2005)', 'HTML (like I said, just text)', 'React (I’ve heard of it)'];
+  tools     = ['Git (just learning to commit...)', 'VS Code (I know it’s a text editor, but I’ve heard it’s magic)'];
 }
 
 // Projects
@@ -68,14 +65,6 @@ class Achievements extends Learner {
 
 // Personal Interests
 class Interests extends Learner {
-  hobbies = [
-    'Exploring rabbit holes', 
-    'Pretending to be productive', 
-    'Eating pizza (while coding, of course)'
-  ];
-  areasOfInterest = [
-    'Rust (mostly because it sounds cool)', 
-    'Application Development (also sounds cool)', 
-    'Automation (Love not doing it)'
-  ];
+  hobbies = ['Exploring rabbit holes', 'Pretending to be productive', 'Eating pizza (while coding, of course)'];
+  areasOfInterest = ['Rust (mostly because it sounds cool)', 'Application Development (also sounds cool)', 'Automation (Love not doing it)'];
 }
